@@ -39,5 +39,5 @@ jobs:
         app-name: 'samifuncpremium'
         slot-name: 'production'
         package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_ee7d8da87b0245ff9c222fc82c7e8d25 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c0b7fa6b5dc34854a3d0aba241d94f53 }}
   
